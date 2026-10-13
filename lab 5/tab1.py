@@ -1,13 +1,13 @@
-# Ввод двух целых чисел
-a = int(input("Введите первое целое число: "))
-b = int(input("Введите второе целое число: "))
+n = int(input("Введите количество элементов: "))
 
-# Вычисления
-summa = a + b
-raznost = a - b
-proizvedenie = a * b
+while n <= 0:
+    print("Количество элементов должно быть больше 0.")
+    n = int(input("Введите количество элементов: "))
 
-# Вывод результатов
-print("Сумма:", summa)
-print("Разность:", raznost)
-print("Произведение:", proizvedenie)
+array = []
+
+for i in range(n):
+    number = int(input(f"Введите элемент {i + 1}: "))
+    array.append(number)
+
+print("Массив:", array) 

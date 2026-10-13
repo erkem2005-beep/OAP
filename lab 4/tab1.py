@@ -1,13 +1,6 @@
-# Ввод двух целых чисел
-a = int(input("Введите первое целое число: "))
-b = int(input("Введите второе целое число: "))
+number = int(input("Введите целое положительное число: "))
 
-# Вычисления
-summa = a + b
-raznost = a - b
-proizvedenie = a * b
+while number <= 0:
+    number = int(input("Число должно быть положительным. Повторите ввод: "))
 
-# Вывод результатов
-print("Сумма:", summa)
-print("Разность:", raznost)
-print("Произведение:", proizvedenie)
+print("Вы ввели положительное число:", number)

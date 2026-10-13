@@ -1,13 +1,7 @@
-# Ввод двух целых чисел
-a = int(input("Введите первое целое число: "))
-b = int(input("Введите второе целое число: "))
+while True:
+    number = int(input("Введите число больше 100: "))
 
-# Вычисления
-summa = a + b
-raznost = a - b
-proizvedenie = a * b
+    if number > 100:
+        break
 
-# Вывод результатов
-print("Сумма:", summa)
-print("Разность:", raznost)
-print("Произведение:", proizvedenie)
+print("Вы ввели число больше 100:", number)

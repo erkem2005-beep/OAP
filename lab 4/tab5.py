@@ -1,13 +1,5 @@
-# Ввод двух целых чисел
-a = int(input("Введите первое целое число: "))
-b = int(input("Введите второе целое число: "))
+i = 1
 
-# Вычисления
-summa = a + b
-raznost = a - b
-proizvedenie = a * b
-
-# Вывод результатов
-print("Сумма:", summa)
-print("Разность:", raznost)
-print("Произведение:", proizvedenie)
+while i <= 10:
+    print(i)
+    i += 1
