@@ -1,9 +1,6 @@
-# Вычисления
-summa = a + b
-raznost = a - b
-proizvedenie = a * b
-
-# Вывод результатов
-print("Сумма:", summa)
-print("Разность:", raznost)
-print("Произведение:", proizvedenie)
+ # Задача 3. Прямой обход (Preorder)
+    def preorder(self, node):
+        if node is not None:
+            print(node.value, end=" ")
+            self.preorder(node.left)
+            self.preorder(node.right)
